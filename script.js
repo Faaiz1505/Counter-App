@@ -17,10 +17,24 @@ document.addEventListener("DOMContentLoaded", function () {
   let stored = localStorage.getItem("counterValue");
   let count = Number.isFinite(Number(stored)) ? Number(stored) : 0;
 
+  // Load saved theme
+  let savedTheme = localStorage.getItem("theme");
+  if (savedTheme === "light") {
+    document.body.classList.add("light");
+    themeBtn.classList.add("fa-moon");
+  } else {
+    themeBtn.classList.add("fa-sun");
+  }
+
+  function saveTheme(style) {
+    localStorage.setItem("theme", style);
+  }
+
   themeBtn?.addEventListener("click", () => {
-    document.body.classList.toggle("dark");
+    document.body.classList.toggle("light");
     themeBtn.classList.toggle("fa-sun");
     themeBtn.classList.toggle("fa-moon");
+    saveTheme(document.body.classList.contains("light") ? "light" : "dark");
   });
 
   // Load saved style

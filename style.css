@@ -1,19 +1,19 @@
 :root {
-  --bg: #cacaca;
-  --card: #f1f1f1;
-  --text: #1a1a1a;
+  --bg: #333;
+  --card: #232323;
+  --text: #f1f1f1;
   --primary: #0d6efd;
   --danger: #dc3545;
   --success: #198754;
   --radius: 18px;
-  --shadow: 0px 8px 32px rgba(0, 0, 0, 0.468);
+  --shadow: 0px 8px 32px rgba(169, 169, 169, 0.35);
 }
 
-body.dark {
-  --bg: #333;
-  --card: #232323;
-  --text: #f1f1f1;
-  --shadow: 0px 8px 32px rgba(169, 169, 169, 0.35);
+body.light {
+  --bg: #cacaca;
+  --card: #f1f1f1;
+  --text: #1a1a1a;
+  --shadow: 0px 8px 32px rgba(0, 0, 0, 0.468);
 }
 
 * {
@@ -155,8 +155,8 @@ section {
 .small-btn {
   width: 35px;
   height: 35px;
-  background: var(--card);
-  color: var(--text);
+  background: var(--text);
+  color: var(--card);
   border-radius: 50%;
   position: absolute;
   right: 27px;
@@ -172,8 +172,8 @@ section {
 }
 
 .small-btn:hover {
-  background: var(--text);
-  color: var(--card);
+  background: var(--success);
+  color: #fff;
   transition: 0.2s ease-in-out;
   transform: scale(1.05);
 }
@@ -296,7 +296,7 @@ button:hover {
   box-shadow: 8px 8px 20px #bcbcbc, -8px -8px 20px #ffffff;
 }
 
-body.dark .purple {
+body:root .purple {
   box-shadow: 8px 8px 20px #0a0a0a, -8px -8px 20px #1a1a1a;
 }
 
@@ -326,7 +326,7 @@ body.dark .purple {
   box-shadow: 0 0 25px rgba(197, 149, 28, 0.965);
 }
 
-body.dark .luxury {
+body:root .luxury {
   box-shadow: 0 0 25px rgba(212, 175, 55, 0.3);
 }
 
