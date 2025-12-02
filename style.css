@@ -94,7 +94,7 @@ h2 {
   padding: 20px 10px 30px 10px;
   border-radius: 25px 25px 50px 50px;
   background: #8c1d1d;
-  background-image: url("./1000397964-removebg-preview.png");
+  background-image: url("./assets/1000397964-removebg-preview.png");
   background-size: cover;
   box-shadow: var(--shadow);
   position: relative;
@@ -281,7 +281,7 @@ button:hover {
 .pink .count-cont {
   background: #e12e90;
   color: black;
-  background-image: url("./1000397964-removebg-preview.png");
+  background-image: url("./assets/1000397964-removebg-preview.png");
   background-size: cover;
 }
 
@@ -310,7 +310,7 @@ body.dark .purple {
 .purple .count-cont {
   background: #7229a2;
   color: black;
-  background-image: url("./1000397964-removebg-preview.png");
+  background-image: url("./assets/1000397964-removebg-preview.png");
   background-size: cover;
 }
 
@@ -340,7 +340,7 @@ body.dark .luxury {
 .luxury .count-cont {
   background: #d4af37;
   color: black;
-  background-image: url("./1000397964-removebg-preview.png");
+  background-image: url("./assets/1000397964-removebg-preview.png");
   background-size: cover;
 }
 
@@ -365,7 +365,7 @@ body.dark .luxury {
 .blue .count-cont {
   background: #1917b5;
   color: black;
-  background-image: url("./1000397964-removebg-preview.png");
+  background-image: url("./assets/1000397964-removebg-preview.png");
   background-size: cover;
 }
 
