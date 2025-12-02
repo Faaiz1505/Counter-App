@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ultimate counter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="card" id="card">
+        <header>
+          <button class="fas fa-sun btn-theme" id="theme"></button>
+          <h2>Ultimate Counter</h2>
+          <button class="fas fa-cog btn-settings" id="settings-btn"></button>
+        </header>
+
+        <section id="counter-display" class="">
+          <div class="count-cont">
+            <div class="outer-screen">
+              <div class="counter-display" id="count">0</div>
+            </div>
+            <button class="out-small-btn"></button>
+            <button class="small-btn" id="reset">Reset</button>
+            <button class="big-btn" id="increase">Count</button>
+          </div>
+        </section>
+
+        <div class="setting-box hidden" id="settings-display">
+          <h3
+            style="
+              margin-top: 20px;
+              margin-bottom: 20px;
+              color: var(--text);
+              text-align: center;
+            "
+          >
+            Styles
+          </h3>
+
+          <div class="row style-btns">
+            <button class="clean-btn" id="clean-btn">Clean</button>
+            <button class="pink-btn" id="pink-btn">Pink</button>
+          </div>
+
+          <div class="row style-btns">
+            <button class="purple-btn" id="purple-btn">Purple</button>
+            <button class="luxury-btn" id="luxury-btn">Luxury</button>
+          </div>
+
+          <button class="blue-btn" id="blue-btn">Blue</button>
+        </div>
+
+        <footer class="footer">
+          <p>Made with ❤️ by NafasHub</p>
+        </footer>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
