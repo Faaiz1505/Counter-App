@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const counterDisplay = document.getElementById("counter-display");
   const themeBtn = document.getElementById("theme");
   const cleanBtn = document.getElementById("clean-btn");
-  const pinkBtn = document.getElementById("pink-btn");
+  const greenBtn = document.getElementById("green-btn");
   const purpleBtn = document.getElementById("purple-btn");
   const luxuryBtn = document.getElementById("luxury-btn");
   const blueBtn = document.getElementById("blue-btn");
@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   cleanBtn?.addEventListener("click", () => applyStyle("card"));
-  pinkBtn?.addEventListener("click", () => applyStyle("card pink"));
+  greenBtn?.addEventListener("click", () => applyStyle("card green"));
   purpleBtn?.addEventListener("click", () => applyStyle("card purple"));
   luxuryBtn?.addEventListener("click", () => applyStyle("card luxury"));
   blueBtn?.addEventListener("click", () => applyStyle("card blue"));

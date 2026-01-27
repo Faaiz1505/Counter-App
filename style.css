@@ -245,8 +245,8 @@ button:hover {
   color: #333;
 }
 
-.row .pink-btn {
-  background: #e20cb8;
+.row .green-btn {
+  background: #007e1b;
   color: #ffffff;
 }
 .row .purple-btn {
@@ -265,28 +265,28 @@ button:hover {
 }
 
 /* ---------- GLASSMORPHISM ---------- */
-.pink {
-  background: rgba(236, 60, 183, 0.905);
+.green {
+  background: rgba(0, 114, 4, 0.905);
   backdrop-filter: blur(14px);
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-.pink h2,
-.pink .count,
-.pink .setting-box h3,
-.pink .footer p {
+.green h2,
+.green .count,
+.green .setting-box h3,
+.green .footer p {
   color: #ffffff !important;
 }
 
-.pink .count-cont {
-  background: #e12e90;
+.green .count-cont {
+  background: #26b926;
   color: black;
   background-image: url("./assets/1000397964-removebg-preview.png");
   background-size: cover;
 }
 
-.pink .setting-box {
-  background: #f146c9;
+.green .setting-box {
+  background: #26952a;
   color: #fff;
 }
 
